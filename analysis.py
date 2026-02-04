@@ -154,3 +154,6 @@ df.groupby(['size_segment','sentiment_group'])['Closed PnL'].mean().unstack().pl
 plt.title("PnL by Size Segment & Sentiment")
 plt.ylabel("Average PnL")
 plt.show()
+
+#Charts Showing
+plt.savefig("charts/avg_pnl_by_sentiment.png")
